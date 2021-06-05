@@ -1,0 +1,80 @@
+baseURL: "ktruji96.github.io"
+languageCode: "en-us"
+title: "Home"
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+  copyright: "2021"
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+    - name: "About"
+      Url: "#"
+    #- name: trash
+    #  Url: "/content/trash"
+    - name: "Science Interests"
+      Url: "/science"
+
+  # social
+  socialicontop: true
+  socialiconfooter: false
+  name: "Kollin Trujillo"
+  github: "https://github.com/ktruji96"
+  linkedin: "https://www.linkedin.com/in/kollin-trujillo-56767a167/"
+  twitter: "https://twitter.com/kollintrujillor"
+  #instagram: "https://instagram.com/gurusabarishh"
+  #facebook: "https://facebook.com"
+
+  # About
+  profile_image: ""
+  descripe_l1_person: "Hi, I'm Kollin, a first year graduate student at University of Washington."
+  descripe_l2_person: ""
+
+  useresume: true
+  customname: ""
+  resumelink: "resume.txt"
+
+  # Things I do
+  usedothings: true
+  Things:
+    - logo: fab fa-python
+      title: Python
+      #description: I build something beautiful using Python.
+      #url: https://example.com
+
+    - logo: fas fa-robot
+      title: Machine learning
+      #description: I train robust models for various tasks.
+      #url: https://guru.com
+
+    - logo: fab fa-html5
+      title: Things for web
+      #description: I love to build things for web
+      #url: https://guru.com
+
+    - logo: fab fa-github
+      title: Things for Git
+      #description: I love to build things for web
+      #url: https://guru.com
+
+  #Description for seo. If you want to show description in your listing or single page, let's make it true
+  showdescription: false
+  tweet: true
+  recentposts: true
